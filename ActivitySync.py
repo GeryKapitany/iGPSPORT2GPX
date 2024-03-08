@@ -131,7 +131,7 @@ def syncData(username, password, garmin_email = None, garmin_password = None):
                     result = session.post(upload_url, files={
                         "title": (None, 'Garmin-'+sync_item["startTimeLocal"], None),
                         "device": (None, 6, None), #IGPS
-                        "sport": (None, 3, None), #骑行
+                        "sport": (None, 3, None), #riding
                         "upload_file_name": (rid+"_ACTIVITY.fit", fd.read(), 'application/octet-stream')
                     })
             else:
@@ -145,7 +145,7 @@ def syncData(username, password, garmin_email = None, garmin_password = None):
                 result = session.post(upload_url, files={
                     "title": (None, 'IGPSPORT-'+sync_item["StartTime"], None),
                     "device": (None, 3, None), #IGPS
-                    "sport": (None, 3, None), #骑行
+                    "sport": (None, 3, None), #riding
                     "upload_file_name": (sync_item["StartTime"]+'.fit', res.content, 'application/octet-stream')
                 })
 
