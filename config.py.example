@@ -1,0 +1,4 @@
+username = "username"
+password = "password"
+save_folder = "D:\\Downloads\\"
+file_format = "gpx" #fit/gpx/tcx
