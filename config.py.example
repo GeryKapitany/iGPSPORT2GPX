@@ -1,4 +1,4 @@
 username = "username"
 password = "password"
-save_folder = "D:\\Downloads\\"
+save_folder = /export/ 
 file_format = "gpx" #fit/gpx/tcx

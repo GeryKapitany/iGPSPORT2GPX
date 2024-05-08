@@ -54,7 +54,7 @@ for activity in activities:
         sync_data.append(activity)
 
 if len(sync_data) == 0:
-    print("nothing data need sync")
+    print("no data need sync")
 else:
     #download file
     for sync_item in sync_data:
