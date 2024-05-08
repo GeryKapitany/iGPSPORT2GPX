@@ -1,5 +1,7 @@
+.gitignore
 config.py
 fittrackee_v3.py
 fittrackee_v2.py
 fittrackee.py
 ft_oauth_client.py
+__pycache__/
